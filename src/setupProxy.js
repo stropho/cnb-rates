@@ -11,7 +11,7 @@ const czechLocaleNumberToNumber = (val) => Number(val.replace(',', '.'))
 const COLUMNS = [
 	{key: 'country'},
 	{key: 'currency'},
-	{key: 'amount'},
+	{key: 'amount', transform: czechLocaleNumberToNumber},
 	{key: 'id'},
 	{key: 'rate', transform: czechLocaleNumberToNumber},
 ]

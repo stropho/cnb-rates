@@ -5,7 +5,7 @@ const KEY_CNB_CURRENCY_RATE = '/api/cnb-rates'
 type CnbCurrencyRate = {
 	country: string
 	currency: string
-	amount: string
+	amount: number
 	id: string
 	rate: number
 }
