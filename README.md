@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This little project loads and displays currency rates from www.cnb.cz using `React`, `react-query`, ....
+
 ## Available Scripts
 
 In the project directory, you can run:
