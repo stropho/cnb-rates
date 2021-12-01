@@ -9,8 +9,8 @@ function App() {
 	return (
 		<QueryClientProvider client={queryClient}>
 			<div className='App'>
-				<CurrencyList />
 				<CurrencyCalculator />
+				<CurrencyList />
 			</div>
 		</QueryClientProvider>
 	)
